@@ -1,0 +1,19 @@
+docker -v
+docker images
+docker ps
+docker pull openjdk-------(copy from website)
+docker run --name JAVA(application run) -it -d openjdk(image se dhek)
+docker ps
+docker exec -it JAVA(application run) jshell(See COMMAND from ps)
+.....
+....
+...
+..
+.
+/exit-----(java)
+
+exit()----(python)
+
+docker stop id(see id from ps)
+
+docker container rm id(see id from ps)

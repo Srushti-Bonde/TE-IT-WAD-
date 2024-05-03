@@ -1,0 +1,10 @@
+winget install --id Git.Git -e --source winget
+
+git --version
+git init
+git add
+git status
+git remote add origin "repository link"
+git commit -m "message"
+git status
+git push -u origin master
